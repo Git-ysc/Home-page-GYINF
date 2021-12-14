@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nvbr{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 500;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/*-------------Banner----------*/
+#bnrr{
+    color: #fff;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding-top: 5%;
+}
+.ptit{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+#bnrr a{
+    color: #fff;
+    text-decoration: none;
+}
+.img-fluid1{
+    margin-left: 90px;
+}
+.bottom-img{
+    width:100%
+}
+/*-----------------sevice---------------------------*/
+#ser{
+    padding: 10px 0;
+}
+.service-img{
+    width: 200px;
+    margin-top: 10px;
+}
+.service-img2{
+    width: 280px;
+    margin-top: 10px;
+}
+.service-img3{
+    width: 320px;
+    margin-top: 10px;
+}
+.services{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.t1::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.t1::after{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#ser .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.t2::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(50px);
+}
+.t2::after{
+    content: '';
+    background: #7b1798;
+    height: 12px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(4px);
+}
+/*------------------------About-------------------*/
+#about{
+    background: #f8f9fa;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.abttit{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 8%;
+}
+#about ul li{
+    margin: 10px 0;
+
+}
+#about ul {
+    margin-left: 40px;
+
+}
+#testi{
+    margin: 38px 0;
+}
+.testim{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.testim img{
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.userdetail{
+    display: inline-block;
+    font-size: 12px;
+}
+/*------------social--------------------*/
+#social-media{
+    padding: 100px 0;
+    background: #f8f9fa;
+}
+#social-media p {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+/*----------------ft--------------------*/
+#foot{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    columns: #fff;
+}
+.footer-img{
+    width: 100%;
+    height:150px;
+}
+.footer-box img{
+    margin-bottom: 20px;
+
+}
+.footer-box .fa{
+    margin-right:8px;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+    max-width: 250px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+hr{
+    background-color: #fff;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
